@@ -12,8 +12,24 @@ function App() {
           <div className="location">
             <p>Tokyo</p>
           </div>
+          <div className="temp">
+            <h1>65F</h1>
+          </div>
+          <div className="description">
+            <p>Clouds</p>
+          </div>
         </div>
-        <div className="bottom"></div>
+        <div className="bottom">
+          <div className="feels">
+            <p>65F</p>
+          </div>
+          <div className="humidity">
+            <p>20%</p>
+          </div>
+          <div className="wind">
+            <p>12Mph</p>
+          </div>
+        </div>
       </div>
     </div>
   );
